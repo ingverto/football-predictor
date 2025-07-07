@@ -1,0 +1,40 @@
+# === Python cache and build files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Model files and serialized data ===
+*.pkl
+*.joblib
+*.sav
+
+# === Output images and PDFs ===
+*.png
+*.pdf
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === VSCode and editor settings ===
+.vscode/
+.idea/
+*.swp
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === Virtual environments ===
+.env/
+.venv/
+ENV/

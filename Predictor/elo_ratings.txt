@@ -1,0 +1,332 @@
+Spain,2227.18
+Argentina,2201.26
+France,2142.04
+Portugal,2111.80
+England,2081.99
+Netherlands,2073.93
+Brazil,2069.32
+Germany,2058.34
+Croatia,2026.11
+Japan,2012.78
+Ecuador,2011.35
+Colombia,1998.88
+Uruguay,1978.95
+Norway,1978.73
+Paraguay,1956.11
+Morocco,1951.75
+Belgium,1944.68
+Italy,1943.80
+Australia,1941.40
+Denmark,1941.03
+Austria,1936.22
+Mexico,1932.52
+Greece,1932.05
+Iran,1931.90
+South Korea,1929.89
+Canada,1912.77
+Serbia,1910.81
+Turkey,1910.42
+Switzerland,1910.29
+Uzbekistan,1880.55
+United States,1879.88
+Russia,1874.56
+Senegal,1866.93
+Jersey,1866.77
+Ukraine,1855.40
+Algeria,1853.41
+Basque Country,1847.69
+New Zealand,1846.33
+Yugoslavia,1845.90
+Panama,1838.35
+Egypt,1834.80
+Peru,1834.33
+Slovenia,1832.59
+Sweden,1829.74
+Czech Republic,1824.39
+Scotland,1820.53
+Venezuela,1816.78
+Wales,1811.54
+Czechoslovakia,1811.23
+Georgia,1807.88
+Costa Rica,1803.36
+Hungary,1792.66
+Bolivia,1783.50
+Tunisia,1780.11
+Jordan,1779.50
+DR Congo,1767.56
+Cameroon,1759.58
+Ivory Coast,1758.04
+Poland,1757.48
+Chile,1756.67
+Northern Cyprus,1755.65
+Guernsey,1755.65
+Romania,1751.82
+North Macedonia,1745.03
+Saudi Arabia,1745.02
+Slovakia,1742.42
+United Arab Emirates,1732.71
+Occitania,1729.28
+Iraqi Kurdistan,1728.63
+Republic of Ireland,1719.77
+Catalonia,1719.65
+Albania,1718.65
+Jamaica,1717.67
+Padania,1716.99
+South Africa,1715.53
+Nigeria,1713.67
+German DR,1703.34
+Iraq,1702.18
+Isle of Man,1699.72
+Honduras,1699.69
+Isle of Wight,1695.74
+Kosovo,1694.21
+Haiti,1690.75
+Mali,1680.48
+Israel,1677.51
+Burkina Faso,1671.00
+Abkhazia,1660.84
+Qatar,1655.54
+Oman,1654.10
+Ghana,1646.44
+Guatemala,1646.07
+Kárpátalja,1645.75
+Ynys Môn,1642.89
+Finland,1635.90
+Northern Ireland,1634.64
+Cape Verde,1632.85
+Angola,1628.16
+County of Nice,1627.19
+Equatorial Guinea,1626.26
+Andalusia,1626.24
+Rhodes,1623.88
+Kernow,1616.64
+New Caledonia,1609.28
+Iceland,1608.94
+Montenegro,1601.57
+Palestine,1601.12
+Gabon,1597.71
+Bosnia and Herzegovina,1595.11
+Artsakh,1593.89
+Suriname,1592.05
+Panjab,1590.10
+Corsica,1588.76
+Guadeloupe,1581.32
+Zanzibar,1579.77
+Ellan Vannin,1578.97
+Sudan,1574.49
+Mozambique,1574.06
+Réunion,1570.79
+Bahrain,1570.20
+Indonesia,1569.67
+Yorkshire,1567.16
+Arameans Suryoye,1566.16
+Menorca,1564.17
+China PR,1563.05
+Syria,1559.64
+Chameria,1557.00
+Cascadia,1556.93
+Trinidad and Tobago,1549.35
+Galicia,1545.94
+Belarus,1542.45
+Luxembourg,1542.38
+Kyrgyzstan,1540.91
+Zambia,1538.10
+Maule Sur,1537.04
+Guinea,1535.20
+Canary Islands,1533.64
+Silesia,1530.88
+El Salvador,1529.05
+Curaçao,1524.18
+Western Armenia,1523.90
+Székely Land,1522.80
+Fiji,1522.41
+Martinique,1521.96
+Shetland,1521.76
+Bulgaria,1521.65
+Biafra,1519.86
+Parishes of Jersey,1519.44
+Uganda,1519.06
+Asturias,1516.47
+Felvidék,1515.61
+Malaysia,1514.34
+Brittany,1514.11
+Surrey,1512.05
+Mapuche,1511.73
+Donetsk PR,1509.32
+Elba Island,1509.22
+Nicaragua,1505.73
+United Koreans in Japan,1501.08
+Republic of St. Pauli,1500.45
+Délvidék,1499.12
+Dominican Republic,1497.02
+Thailand,1495.42
+Saugeais,1495.39
+Tamil Eelam,1494.89
+Crimea,1494.46
+West Papua,1494.42
+Central Spain,1493.51
+Madrid,1493.31
+Comoros,1492.21
+Tahiti,1491.71
+Benin,1489.55
+Seborga,1488.43
+Cilento,1487.62
+North Vietnam,1487.11
+Kazakhstan,1486.96
+Greenland,1483.52
+South Ossetia,1482.43
+Luhansk PR,1482.15
+Vietnam,1481.57
+Sierra Leone,1481.45
+Sápmi,1479.59
+Matabeleland,1479.44
+Kuwait,1478.10
+Yoruba Nation,1477.52
+Botswana,1477.01
+Western Sahara,1475.77
+Ryūkyū,1475.19
+North Korea,1473.13
+Libya,1473.09
+Somaliland,1472.67
+Togo,1472.58
+Provence,1472.24
+Armenia,1470.02
+Gambia,1468.88
+Kenya,1468.17
+Zimbabwe,1462.42
+South Yemen,1462.09
+Saarland,1461.70
+Gozo,1461.25
+Åland Islands,1460.89
+Tajikistan,1457.22
+Sealand,1456.60
+Azerbaijan,1455.79
+Solomon Islands,1452.47
+Gotland,1452.35
+Aymara,1451.23
+Tanzania,1450.01
+Romani people,1449.56
+Madagascar,1448.24
+Franconia,1446.76
+Kabylia,1445.96
+Mayotte,1443.91
+Chechnya,1442.73
+Burundi,1442.65
+Rwanda,1442.54
+Estonia,1441.39
+Namibia,1439.08
+Lebanon,1437.04
+Hmong,1435.82
+Manchukuo,1435.13
+Guyana,1432.35
+Palau,1423.38
+Western Isles,1417.55
+Mauritania,1414.75
+Vatican City,1413.89
+Saint Barthélemy,1410.68
+Guinea-Bissau,1410.09
+Niue,1409.73
+Latvia,1409.36
+Găgăuzia,1406.29
+Monaco,1403.25
+Turkmenistan,1402.83
+French Guiana,1401.70
+Central African Republic,1399.95
+Moldova,1398.61
+Raetia,1394.49
+Barawa,1392.38
+Ticino,1392.11
+Cuba,1387.83
+Vanuatu,1386.03
+Lithuania,1380.24
+Western Australia,1376.59
+Malawi,1369.17
+Congo,1367.60
+Cyprus,1367.05
+Niger,1366.34
+Ethiopia,1363.40
+Liberia,1359.66
+Two Sicilies,1359.29
+Hong Kong,1354.38
+Vietnam Republic,1353.03
+Malta,1349.42
+Orkney,1342.97
+Puerto Rico,1342.16
+Papua New Guinea,1341.01
+Faroe Islands,1338.66
+Saint Vincent and the Grenadines,1333.69
+Saare County,1333.09
+Yemen DPR,1332.94
+Lesotho,1332.93
+Ambazonia,1317.66
+India,1317.10
+Chagos Islands,1305.91
+Saint Helena,1299.23
+Bermuda,1298.23
+Philippines,1295.08
+Eswatini,1285.70
+Sark,1285.38
+Belize,1274.20
+Micronesia,1274.16
+Hitra,1273.23
+Singapore,1272.11
+Saint Kitts and Nevis,1264.61
+Wallis Islands and Futuna,1261.69
+Grenada,1257.08
+Tibet,1244.46
+Saint Lucia,1244.29
+Yemen,1241.37
+Saint Pierre and Miquelon,1236.50
+Chad,1233.71
+South Sudan,1233.63
+Saint Martin,1221.25
+Mauritius,1218.08
+Afghanistan,1212.57
+Sint Maarten,1209.83
+Samoa,1203.24
+Frøya,1196.19
+Montserrat,1182.78
+Darfur,1182.75
+Kiribati,1164.36
+Falkland Islands,1159.61
+Tuvalu,1159.58
+Andorra,1155.62
+Eritrea,1152.58
+Myanmar,1140.24
+Barbados,1138.46
+Dominica,1132.54
+Aruba,1121.59
+Gibraltar,1115.33
+Antigua and Barbuda,1101.32
+Bangladesh,1100.69
+São Tomé and Príncipe,1094.20
+Bonaire,1091.34
+Nepal,1068.52
+Djibouti,1060.13
+Alderney,1056.87
+Cayman Islands,1053.72
+Cook Islands,1049.77
+Cambodia,1039.06
+Taiwan,1030.74
+Sri Lanka,1020.05
+Tonga,1018.25
+Bahamas,1002.96
+Maldives,994.17
+Somalia,987.26
+Liechtenstein,986.21
+Seychelles,965.78
+Pakistan,952.65
+Mongolia,939.65
+Laos,939.59
+San Marino,920.91
+American Samoa,905.35
+Guam,904.90
+Turks and Caicos Islands,901.82
+Brunei,894.89
+Northern Mariana Islands,880.73
+British Virgin Islands,858.58
+United States Virgin Islands,843.11
+Bhutan,836.95
+Timor-Leste,835.54
+Anguilla,828.55
+Macau,776.11
