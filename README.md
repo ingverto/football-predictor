@@ -45,7 +45,6 @@ weighted avg       0.56      0.58      0.57      7078
 | `xgb_model.pkl`           | Trained XGBoost model                 |
 | `confusion_matrix.png`    | Confusion matrix from test set        |
 | `feature_importance.png`  | Visualized feature importance         |
-| `xgb_trees.pdf`           | Export of all decision trees          |
 
 ## Requirements
 
