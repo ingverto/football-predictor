@@ -64,6 +64,4 @@ This dataset includes 47,960 results of international football matches starting 
 
 > Note: Matches are strictly men’s full internationals and exclude Olympic Games and youth/B-team matches.
 
-## Credits
 
-Created by Oliver Ingvert (2025)
