@@ -1,67 +1,64 @@
-# Football Match Predictor (XGBoost + Elo)
+# Football Match Predictor
 
-This project predicts the outcome of international football matches (`win`, `loss`, `draw`) using machine learning. It combines a custom Elo rating system, form tracking based on recent goal differences, and an XGBoost classifier with hyperparameter optimization.
+This is a simple simulator for predicting international football tournaments using machine learning. It uses a trained XGBoost model together with Elo ratings and recent team form to simulate a full World Cup – including group stage and knockout rounds.
 
-## Features
+## What it does
 
-- Encoded categorical features for teams and tournaments
-- Elo rating calculation for each team
-- Team form based on last 5 matches' goal difference
-- Elo difference (`elo_diff`) as a feature
-- XGBoost classifier with GridSearchCV for optimal parameters
-- Class balancing using computed sample weights
-- Confusion matrix and feature importance visualization
-- Exports all trained trees to `xgb_trees.pdf`
+- Lets you select 32 national teams
+- Automatically assigns teams to groups A–H
+- Simulates group matches using a trained model
+- Calculates group standings based on simulated results
+- Runs knockout rounds based on group rankings
+- Uses a separate model to predict penalty shootouts
+- Displays detailed results and most frequent winners
 
-## Classification Report
+## How to run
 
-```
-              precision    recall  f1-score   support
+1. Make sure you have Python 3.9 or later.
+2. Go to the `Predictor` folder:
 
-        draw       0.31      0.20      0.24      1634
-        loss       0.54      0.67      0.60      2060
-         win       0.69      0.71      0.70      3384
+cd path/to/Predictor
 
-    accuracy                           0.58      7078
-   macro avg       0.51      0.53      0.52      7078
-weighted avg       0.56      0.58      0.57      7078
-```
+    Install required packages:
 
-## Confusion Matrix
+pip install pandas numpy scikit-learn xgboost joblib
 
-![Confusion Matrix](confusion_matrix.png)
+    Start the GUI:
 
-## Feature Importance
+python main_gui.py
 
-![Feature Importance](feature_importance.png)
+How it works
 
-## File Overview
+    The AI model predicts outcomes based on:
 
-| File                      | Description                            |
-|---------------------------|----------------------------------------|
-| `vm_predictor.py`         | Main training pipeline                 |
-| `evaluate.py`             | Runs simulations and model evaluation |
-| `results.csv`             | Historical match data                 |
-| `xgb_model.pkl`           | Trained XGBoost model                 |
-| `confusion_matrix.png`    | Confusion matrix from test set        |
-| `feature_importance.png`  | Visualized feature importance         |
+        Elo rating for each team
 
-## Requirements
+        Elo difference between teams
 
-```bash
-pip install pandas xgboost scikit-learn matplotlib numpy
-```
+        Recent goal difference (last 5 games)
 
-## Dataset
+        Encoded tournament and team info
 
-This dataset includes 47,960 results of international football matches starting from the very first official match in 1872 up to 2024. The matches range from FIFA World Cup to FIFI Wild Cup to regular friendly matches.
+    Elo ratings are updated after each match
 
-### Files
+    Group standings are calculated using points, goal difference, and goals for
 
-- `results.csv`: All historical match results  
-- `shootouts.csv`: Matches with penalty shootouts  
-- `goalscorers.csv`: Goal details per player  
+    Knockout matches use the same model
 
-> Note: Matches are strictly men’s full internationals and exclude Olympic Games and youth/B-team matches.
+    If a match is drawn, a penalty shootout model predicts the winner
 
+Files
+File	Description
+main_gui.py	GUI app for simulations
+simulate_knockout_rounds.py	Script for batch simulation runs
+results.csv	Historical match data
+xgb_model.pkl	Trained XGBoost model
+penalty_model.pkl	Penalty shootout model
+label_encoder_*.pkl	Encoders for teams, tournaments, outcomes
+Notes
 
+    Based on men’s full international matches only
+
+    Does not include Olympic, youth, or B-team matches
+
+    Built for learning, experimentation and fun – not for betting
