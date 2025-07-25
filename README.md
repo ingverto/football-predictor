@@ -1,4 +1,4 @@
-# Football Match Predictor
+# World Cup Match Predictor
 
 This is a simple simulator for predicting international football tournaments using machine learning. It uses a trained XGBoost model together with Elo ratings and recent team form to simulate a full World Cup – including group stage and knockout rounds.
 
