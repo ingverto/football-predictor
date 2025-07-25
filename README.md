@@ -47,15 +47,16 @@ How it works
 
     If a match is drawn, a penalty shootout model predicts the winner
 
-Files
-File	Description
-main_gui.py	GUI app for simulations
-simulate_knockout_rounds.py	Script for batch simulation runs
-results.csv	Historical match data
-xgb_model.pkl	Trained XGBoost model
-penalty_model.pkl	Penalty shootout model
-label_encoder_*.pkl	Encoders for teams, tournaments, outcomes
-Notes
+## Files
+
+| File                        | Description                             |
+|-----------------------------|-----------------------------------------|
+| `main_gui.py`               | GUI app for simulations                 |
+| `simulate_knockout_rounds.py` | Script for batch simulation runs     |
+| `results.csv`               | Historical match data                  |
+| `xgb_model.pkl`             | Trained XGBoost model                  |
+| `penalty_model.pkl`         | Penalty shootout model                 |
+| `label_encoder_*.pkl`       | Encoders for teams, tournaments, outcomes |
 
     Based on men’s full international matches only
 
