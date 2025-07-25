@@ -31,7 +31,8 @@ python main_gui.py
 
 Includes over 47,000 men's full international matches from 1872 to 2024.
 Excludes Olympic Games, youth teams, and B-teams.
-Notes
+
+# Notes
 
     Built for experimentation and fun
 
