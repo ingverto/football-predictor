@@ -1,69 +1,39 @@
-# Football Match Predictor (XGBoost + Elo)
+# World Cup Match Predictor (XGBoost + Elo)
 
-This project predicts the outcome of international football matches (`win`, `loss`, `draw`) using machine learning. It combines a custom Elo rating system, form tracking based on recent goal differences, and an XGBoost classifier with hyperparameter optimization.
+This project simulates an entire international football tournament using machine learning. It combines a trained XGBoost classifier with Elo ratings and recent team form to predict match outcomes. The simulator includes both group stages and knockout rounds, just like a real FIFA World Cup.
 
 ## Features
 
-- Encoded categorical features for teams and tournaments
-- Elo rating calculation for each team
-- Team form based on last 5 matches' goal difference
-- Elo difference (`elo_diff`) as a feature
-- XGBoost classifier with GridSearchCV for optimal parameters
-- Class balancing using computed sample weights
-- Confusion matrix and feature importance visualization
-- Exports all trained trees to `xgb_trees.pdf`
+- Select 32 national teams and assign them to groups A–H
+- Predict match outcomes using a trained AI model
+- Use Elo ratings and recent goal difference as features
+- Simulate group stages and knockout brackets
+- Predict penalty shootouts using a separate model
+- Display group tables, match summaries, and final winners
 
-## Classification Report
+## How to run
 
-```
-              precision    recall  f1-score   support
 
-        draw       0.31      0.20      0.24      1634
-        loss       0.54      0.67      0.60      2060
-         win       0.69      0.71      0.70      3384
+pip install pandas numpy scikit-learn xgboost joblib
+python main_gui.py
 
-    accuracy                           0.58      7078
-   macro avg       0.51      0.53      0.52      7078
-weighted avg       0.56      0.58      0.57      7078
-```
+## Files
 
-## Confusion Matrix
+| File                        | Description                             |
+|-----------------------------|-----------------------------------------|
+| `main_gui.py`               | GUI app for simulations                 |
+| `simulate_knockout_rounds.py` | Script for batch simulation runs     |
+| `results.csv`               | Historical match data                  |
+| `xgb_model.pkl`             | Trained XGBoost model                  |
+| `penalty_model.pkl`         | Penalty shootout model                 |
+| `label_encoder_*.pkl`       | Encoders for teams, tournaments, outcomes |
 
-![Confusion Matrix](confusion_matrix.png)
 
-## Feature Importance
+Includes over 47,000 men's full international matches from 1872 to 2024.
+Excludes Olympic Games, youth teams, and B-teams.
+Notes
 
-![Feature Importance](feature_importance.png)
+    Built for experimentation and fun
 
-## File Overview
+    Not intended for betting or gambling
 
-| File                      | Description                            |
-|---------------------------|----------------------------------------|
-| `vm_predictor.py`         | Main training pipeline                 |
-| `evaluate.py`             | Runs simulations and model evaluation |
-| `results.csv`             | Historical match data                 |
-| `xgb_model.pkl`           | Trained XGBoost model                 |
-| `confusion_matrix.png`    | Confusion matrix from test set        |
-| `feature_importance.png`  | Visualized feature importance         |
-
-## Requirements
-
-```bash
-pip install pandas xgboost scikit-learn matplotlib numpy
-```
-
-## Dataset
-
-This dataset includes 47,960 results of international football matches starting from the very first official match in 1872 up to 2024. The matches range from FIFA World Cup to FIFI Wild Cup to regular friendly matches.
-
-### Files
-
-- `results.csv`: All historical match results  
-- `shootouts.csv`: Matches with penalty shootouts  
-- `goalscorers.csv`: Goal details per player  
-
-> Note: Matches are strictly men’s full internationals and exclude Olympic Games and youth/B-team matches.
-
-## Credits
-
-Created by Oliver Ingvert (2025)
