@@ -10,7 +10,6 @@ dist/
 build/
 
 # === Model files and serialized data ===
-*.pkl
 *.joblib
 *.sav
 
